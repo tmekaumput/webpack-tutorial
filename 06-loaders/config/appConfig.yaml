@@ -1,0 +1,20 @@
+app:
+  name: learning webpack with yaml
+  owner: Antonio
+  leadDev:
+    name: Top Mekaumput
+    email: kampanart_m@yahoo.com
+  appUsers:
+    - company: google
+      contact: team@google.com
+    - company: amazon
+      contact: team@amazon.com
+  supportTeam:
+    email: support@company.com
+    phoneNumber: 0411727924
+  keywords:
+    - webpack
+    - webapp
+    - support
+    - development
+    

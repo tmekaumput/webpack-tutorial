@@ -1,0 +1,17 @@
+{
+  "name": "webpack-lab1",
+  "version": "1.0.0",
+  "description": "webpack course lab1",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "1.14.0"
+  },
+  "scripts": {
+    "webpackfromterminal": "webpack ./app.js ./bundle.js",
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

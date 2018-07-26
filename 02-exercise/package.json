@@ -1,0 +1,16 @@
+{
+  "name": "02-exercise",
+  "version": "1.0.0",
+  "description": "exercise",
+  "main": "index.js",
+  "author": "Top Mekaumput",
+  "license": "MIT",
+  "dependencies": {
+    "http": "^0.0.0",
+    "jquery": "^3.3.1",
+    "json": "^9.0.6"
+  },
+  "scripts": {
+    "webpack": "webpack"
+  }
+}
