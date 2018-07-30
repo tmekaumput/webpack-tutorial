@@ -1,0 +1,30 @@
+<html ng-app='app'>
+    <head>
+        <meta charset="utf-8">
+        <title>Tweets</title>
+
+    <link href="tweets.7f13d6cac2d20de08abc.css?5802082ddae1f01e1b9f" rel="stylesheet"></head>
+    <body class="body">
+        <div class="container">
+          <a href="/">
+            <i class="fa fa-link"></i> - Main entry point - React app
+          </a>
+        </div>
+        <div ng-controller='Controller' class='container'>
+          <h1>{{ numberOfTweets }} Tweets <i class="fa fa-twitter fa-4x"> </i></h1>
+          <div class="col-xs-6 col-xs-offset-3" id="tweetsContainer">
+            <div ng-repeat="tweet in tweets" class="panel panel-default">
+              <div class="panel-heading">
+                <i class="fa fa-user fa-2x"></i> {{ tweet.user }} - {{ tweet.gender }}
+              </div>
+              <div class="panel-body panel-primary">
+                <i class="fa fa-twitter fa-2x"> </i> {{ tweet.tweet }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <script type="text/javascript" src="vendor.6db1f199eecd3ef34ef1.bundle.js?5802082ddae1f01e1b9f"></script>
+    <script type="text/javascript" src="tweets.7f13d6cac2d20de08abc.bundle.js?5802082ddae1f01e1b9f"></script>
+  </body>
+</html>
